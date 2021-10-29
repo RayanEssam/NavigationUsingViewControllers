@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF46CCC2272687B5007D21C2 /* ViewControllerTab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46CCC1272687B5007D21C2 /* ViewControllerTab2.swift */; };
+		CF46CCC4272699CA007D21C2 /* ViewsUsingCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46CCC3272699C9007D21C2 /* ViewsUsingCodeVC.swift */; };
 		CF6084D927255F710026CFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6084D827255F710026CFEE /* AppDelegate.swift */; };
 		CF6084DB27255F710026CFEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6084DA27255F710026CFEE /* SceneDelegate.swift */; };
 		CF6084DD27255F710026CFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6084DC27255F710026CFEE /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF46CCC1272687B5007D21C2 /* ViewControllerTab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTab2.swift; sourceTree = "<group>"; };
+		CF46CCC3272699C9007D21C2 /* ViewsUsingCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsUsingCodeVC.swift; sourceTree = "<group>"; };
 		CF6084D527255F710026CFEE /* NavigationUsingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationUsingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6084D827255F710026CFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6084DA27255F710026CFEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				CF6084EC272566680026CFEE /* ViewControllerPresent.swift */,
 				CF6084EE272566D30026CFEE /* ViewControllerPush.swift */,
 				CF6084F02725789B0026CFEE /* ViewControllerPushWithVariable.swift */,
+				CF46CCC1272687B5007D21C2 /* ViewControllerTab2.swift */,
+				CF46CCC3272699C9007D21C2 /* ViewsUsingCodeVC.swift */,
 			);
 			path = NavigationUsingViewController;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6084F12725789B0026CFEE /* ViewControllerPushWithVariable.swift in Sources */,
+				CF46CCC4272699CA007D21C2 /* ViewsUsingCodeVC.swift in Sources */,
 				CF6084DD27255F710026CFEE /* ViewController.swift in Sources */,
 				CF6084EF272566D30026CFEE /* ViewControllerPush.swift in Sources */,
+				CF46CCC2272687B5007D21C2 /* ViewControllerTab2.swift in Sources */,
 				CF6084D927255F710026CFEE /* AppDelegate.swift in Sources */,
 				CF6084ED272566680026CFEE /* ViewControllerPresent.swift in Sources */,
 				CF6084DB27255F710026CFEE /* SceneDelegate.swift in Sources */,

@@ -19,22 +19,22 @@ class ViewController: UIViewController {
 // This function will be trigger when the Present button is clicked
     @IBAction func PresentActionButton(_ sender: Any) {
         
-        let VC = storyboard?.instantiateViewController(withIdentifier: "Present")
-        
-        present(VC!, animated: true)
-        
-        
+//        let VC = storyboard?.instantiateViewController(withIdentifier: "Present")
+//
+//        present(VC!, animated: true)
+//
+//
         
     }
 
 // This function will be trigger when the push button is clicked
     @IBAction func PushActionButton(_ sender: Any) {
         
-        let VC = storyboard?.instantiateViewController(withIdentifier: "Push")
-        
-        
-        self.navigationController?.pushViewController(VC!, animated: true)
-    
+//        let VC = storyboard?.instantiateViewController(withIdentifier: "Push")
+//
+//
+//        self.navigationController?.pushViewController(VC!, animated: true)
+//
         
     }
     
